@@ -1,0 +1,46 @@
+#service {
+    background-image: url(../img/service.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/* 各リンクのスタイル */
+.link-item {
+    
+    display: flex;
+    align-items: right; /* アイコンとテキストを揃える */
+    justify-content: space-between; /* アイコンは左、テキストは右に */
+    padding: 10px;
+    background: #1a3d7c; /* 深い青 */
+    border-radius: 5px;
+    transition: 0.3s;
+    border-bottom: 2px solid white; /* 下線を追加 */
+}
+
+/* 最後のボタンの下線を消す */
+.link-item:last-child {
+    border-bottom: none;
+}
+
+/* ホバー時のエフェクト */
+.link-item:hover {
+    background: #162e5c; /* さらに深い青 */
+}
+
+/* アイコン */
+.link-item img {
+    width: 30px; /* アイコンのサイズ */
+    height: 30px;
+}
+
+/* リンク */
+.link-item a {
+    text-decoration: none;
+    color: white; /* 文字を白に */
+    font-size: 16px;
+    flex: 1; /* テキストが伸びるように */
+    text-align: right; /* 右寄せ */
+    padding-right: 10px; /* 右側の余白を追加 */
+}

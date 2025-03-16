@@ -59,6 +59,32 @@
         font-size: 20px;
     }
 
+
+    #a04_p1 {
+        position: absolute;
+        left: 10px;
+        font-size: 30px;
+    }
+
+    #a04_p2 {
+        position: absolute;
+        top: 70%;
+        font-size: 20px;
+    }
+
+
+    #a05_p1 {
+        position: absolute;
+        left: 10px;
+        font-size: 30px;
+    }
+
+    #a05_p2 {
+        position: absolute;
+        top: 91%;
+        font-size: 20px;
+    }
+
     #a01 {
         background-image: url(../img/Frow01.JPG);
 
