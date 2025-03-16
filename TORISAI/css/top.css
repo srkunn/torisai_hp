@@ -1,0 +1,89 @@
+@media (max-width:500px) {
+    #take {
+        background-image: url(../img/IMG_6142.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* 縦方向の中央揃え */
+        align-items: flex-end;
+        /* 横方向の中央揃え */
+        padding: 20px;
+    }
+
+    #TextTakeH2 {
+        font-size: 4vw;
+        /* 画面サイズに応じたフォントサイズ */
+        margin-bottom: 20px;
+        margin-right: 3vw;
+        /* 左に寄せる */
+    }
+
+    #TextTakeP1 {
+        font-size: 1.5vw;
+        margin-top: 20px;
+        margin-right: 2vw;
+        /* 左に寄せる */
+    }
+
+    #TextTakeP2 {
+        font-size: 2vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        /* 透明感のある背景 */
+        padding: 10px 20px;
+        margin-top: 0;
+        border-radius: 5px;
+        margin-right: 2vw;
+        /* 左に寄せる */
+    }
+
+    #TakeButton1 {
+        background: linear-gradient(90deg, #ff4500, #ffb199);
+        /* 左を濃いオレンジ (#ff4500)、右を薄いオレンジ (#ffb199) に */
+
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 50px 50px 50px 50px;
+        font-size: 2.5vw;
+        cursor: pointer;
+        margin-top: 0;
+        transition: background 0.3s;
+        margin-right: 2vw;
+        text-align: center;
+        /* 左に寄せる */
+        align-self: center;
+    }
+
+    /* 🖱️ ホバー時の色を少し鮮やかに */
+    #TakeButton1:hover {
+        background: linear-gradient(90deg, #ff6347, #ffd1c4);
+        /* ホバー時はもう少し明るめのグラデーション */
+    }
+
+    #TakeButton2 {
+        background: linear-gradient(90deg, #0066cc, #66ccff);
+        /* 左を濃いオレンジ (#ff4500)、右を薄いオレンジ (#ffb199) に */
+
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 50px 50px 50px 50px;
+        font-size: 2.5vw;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background 0.3s;
+        margin-right: 2vw;
+        text-align: center;
+        /* 左に寄せる */
+        align-self: center;
+    }
+
+    /* 🖱️ ホバー時の色を少し鮮やかに */
+    #TakeButton2:hover {
+        background: linear-gradient(90deg, #005bb5, #80c4ff);
+        /* ホバー時はもう少し明るめのグラデーション */
+    }
+}

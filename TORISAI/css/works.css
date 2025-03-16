@@ -1,0 +1,22 @@
+@media (max-width:500px) {
+
+
+    #works table {
+        width: 100%;
+        /* テーブルをセクションいっぱいに広げる */
+        border-collapse: collapse;
+        /* 罫線の間隔をなくす */
+    }
+
+    #works td {
+        padding: 5px;
+        /* 画像の間に少し余白 */
+    }
+
+    #works .worksimg {
+        width: 100%;
+        /* 画像をセルいっぱいに */
+        height: auto;
+        /* アスペクト比を保つ */
+    }
+}

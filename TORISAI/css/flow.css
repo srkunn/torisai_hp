@@ -1,0 +1,82 @@
+@media (max-width:500px) {
+    #flow {
+        position: relative;
+    }
+
+
+
+
+    #flow article {
+        height: 300px;
+        background-size: cover;
+        /* 画像を記事いっぱいに表示 */
+        background-position: center;
+        /* 画像を中央配置 */
+        background-repeat: no-repeat;
+        /* 画像の繰り返しを防ぐ */
+    }
+
+    #a01_p1 {
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+    }
+
+    #a01_p2 {
+        position: absolute;
+        top: 8%;
+        left: 30px;
+        font-size: 30px;
+    }
+
+    #a01_p3 {
+        position: absolute;
+        top: 14%;
+        font-size: 20px;
+    }
+
+    #a02_p1 {
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+    }
+
+    #a02_p2 {
+        position: absolute;
+        top: 32%;
+        font-size: 20px;
+    }
+
+    #a03_p1 {
+        position: absolute;
+        left: 40px;
+        font-size: 30px;
+    }
+
+    #a03_p2 {
+        position: absolute;
+        top: 52%;
+        font-size: 20px;
+    }
+
+    #a01 {
+        background-image: url(../img/Frow01.JPG);
+
+    }
+
+    #a02 {
+        background-image: url(../img/Frow02.JPG);
+    }
+
+    #a03 {
+        background-image: url(../img/Frow03.JPG);
+    }
+
+    #a04 {
+        background-image: url(../img/Frow04.JPG);
+    }
+
+    #a05 {
+        background-image: url(../img/Frow05.JPG);
+    }
+}

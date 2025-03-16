@@ -1,0 +1,21 @@
+@media (max-width:500px) {
+    .slider {
+        overflow: hidden;
+        /* スライダーの幅 */
+        margin: auto;
+
+    }
+
+    .images-container {
+        display: flex;
+        /* transition: transform 0s ease-in-out; */
+        /* より滑らかな動きに */
+    }
+
+    .images-container img {
+
+        width: 33%;
+        /* 各画像の幅 */
+        height: auto;
+    }
+}
