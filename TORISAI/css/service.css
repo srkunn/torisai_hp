@@ -6,6 +6,27 @@
     padding: 20px;
 }
 
+#serviceh2{
+    text-align: left;
+}
+
+#servicep1{
+    text-align: left;
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
+
+#servicep2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
+
+
+
+
 /* 各リンクのスタイル */
 .link-item {
     
@@ -43,4 +64,19 @@
     flex: 1; /* テキストが伸びるように */
     text-align: right; /* 右寄せ */
     padding-right: 10px; /* 右側の余白を追加 */
+}
+#img1 {
+    background-image: url(../img/service2.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height:200px
+}
+
+#imgdiv{
+    background-color: white;
+    font-size: 90px;
+    font-family: serif;
+    color: lightgrey;
 }

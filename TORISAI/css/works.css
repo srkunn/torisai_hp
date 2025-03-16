@@ -19,4 +19,8 @@
         height: auto;
         /* アスペクト比を保つ */
     }
+
+    #worksh2{
+        text-align: left;
+    }
 }
