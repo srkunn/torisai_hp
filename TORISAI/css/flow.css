@@ -5,6 +5,7 @@
 
 
     #flowh2{
+        font-size:40px;
         text-align: left;
     }
 
@@ -26,7 +27,7 @@
 
     #a01_p2 {
         position: absolute;
-        top: 8%;
+        top: 9.3%;
         left: 30px;
         font-size: 30px;
     }
@@ -45,7 +46,7 @@
 
     #a02_p2 {
         position: absolute;
-        top: 32%;
+        top: 35%;
         font-size: 20px;
     }
 
@@ -70,7 +71,7 @@
 
     #a04_p2 {
         position: absolute;
-        top: 70%;
+        top: 71%;
         font-size: 20px;
     }
 
