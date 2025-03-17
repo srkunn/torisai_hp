@@ -3,6 +3,7 @@
         overflow: hidden;
         /* スライダーの幅 */
         margin: auto;
+        background-color:#EEEEEE;
 
     }
 
@@ -18,4 +19,5 @@
         /* 各画像の幅 */
         height: auto;
     }
+
 }
