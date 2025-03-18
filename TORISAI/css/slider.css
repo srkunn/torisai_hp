@@ -11,13 +11,16 @@
         display: flex;
         /* transition: transform 0s ease-in-out; */
         /* より滑らかな動きに */
+        position:absolute;
+        top: 65%;
+        left: 0;
     }
 
     .images-container img {
-
         width: 33%;
         /* 各画像の幅 */
         height: auto;
+
     }
 
 }
