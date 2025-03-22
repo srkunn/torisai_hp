@@ -4,6 +4,7 @@
         /* スライダーの幅 */
         margin: auto;
         background-color:#EEEEEE;
+        position:absolute;
 
     }
 
@@ -12,14 +13,12 @@
         /* transition: transform 0s ease-in-out; */
         /* より滑らかな動きに */
         position:absolute;
-        top: 65%;
-        left: 0;
+        top: 73%;
+        left:0;
     }
 
     .images-container img {
-        width: 33%;
-        /* 各画像の幅 */
-        height: auto;
+        width: 20%;
 
     }
 
