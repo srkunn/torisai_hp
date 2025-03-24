@@ -19,8 +19,6 @@
 
     #TextTakeP1 {
         font-size: 15px;
-        position: relative;
-        top: 12%;
     }
 
     #TextTakeP2 {
@@ -31,8 +29,6 @@
         border-radius: 5px;
         margin-right: 2px;
         /* 左に寄せる */
-        position: relative;
-        top:12%;
     }
 
     #TakeButton1 {
@@ -44,8 +40,6 @@
         border: none;
         border-radius: 50px 50px 50px 50px;
         align-self: center;
-        position: relative;
-        top:12%;
     }
 
     /* 🖱️ ホバー時の色を少し鮮やかに */
@@ -63,8 +57,7 @@
         border: none;
         border-radius: 50px 50px 50px 50px;
         align-self: center;
-        position: relative;
-        top:12%;
+
     }
 
     /* 🖱️ ホバー時の色を少し鮮やかに */
