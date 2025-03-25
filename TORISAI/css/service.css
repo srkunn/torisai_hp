@@ -1,81 +1,181 @@
-#service {
-    background-image: url(../img/service.JPG);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 20px;
+@media (max-width:500px) {
+    #service {
+        background-image: url(../img/service.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+    }
+
+    #serviceh2 {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    #servicep1 {
+        text-align: left;
+        background-color: white;
+        color: black;
+        opacity: 0.8;
+    }
+
+    #servicep2 {
+        text-align: center;
+        background-color: white;
+        color: black;
+        opacity: 0.8;
+    }
+
+
+
+
+    /* 各リンクのスタイル */
+    .link-item {
+
+        display: flex;
+        align-items: right;
+        /* アイコンとテキストを揃える */
+        justify-content: space-between;
+        /* アイコンは左、テキストは右に */
+        padding: 10px;
+        background: #0049AA;
+        border-radius: 5px;
+        transition: 0.3s;
+        border-bottom: 2px solid white;
+        /* 下線を追加 */
+    }
+
+    /* 最後のボタンの下線を消す */
+    .link-item:last-child {
+        border-bottom: none;
+    }
+
+    /* ホバー時のエフェクト */
+    .link-item:hover {
+        background: #162e5c;
+        /* さらに深い青 */
+    }
+
+    /* アイコン */
+    .link-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* リンク */
+    .link-item a {
+        text-decoration: none;
+        color: white;
+        /* 文字を白に */
+        font-size: 16px;
+        text-align: right;
+        /* 右寄せ */
+    }
+
+    #img1 {
+        background-image: url(../img/service2.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 200px
+    }
+
+    #imgdiv {
+        background-color: white;
+        font-size: 90px;
+        font-family: serif;
+        color: lightgrey;
+    }
 }
 
-#serviceh2{
-    font-size:40px;
-    text-align: left;
-}
+@media (max-width:1280px) {
+    #service {
+        background-image: url(../img/service.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+    }
 
-#servicep1{
-    text-align: left;
-    background-color: white;
-    color: black;
-    opacity: 0.8;
-}
+    #serviceh2 {
+        font-size: 40px;
+        text-align: left;
+    }
 
-#servicep2{
-    text-align: center;
-    background-color: white;
-    color: black;
-    opacity: 0.8;
-}
+    #servicep1 {
+        text-align: left;
+        background-color: white;
+        color: black;
+        opacity: 0.8;
+    }
+
+    #servicep2 {
+        text-align: center;
+        background-color: white;
+        color: black;
+        opacity: 0.8;
+    }
 
 
 
 
-/* 各リンクのスタイル */
-.link-item {
-    
-    display: flex;
-    align-items: right; /* アイコンとテキストを揃える */
-    justify-content: space-between; /* アイコンは左、テキストは右に */
-    padding: 10px;
-    background:#0049AA;
-    border-radius: 5px;
-    transition: 0.3s;
-    border-bottom: 2px solid white; /* 下線を追加 */
-}
+    /* 各リンクのスタイル */
+    .link-item {
 
-/* 最後のボタンの下線を消す */
-.link-item:last-child {
-    border-bottom: none;
-}
+        display: flex;
+        align-items: right;
+        /* アイコンとテキストを揃える */
+        justify-content: space-between;
+        /* アイコンは左、テキストは右に */
+        padding: 10px;
+        background: #0049AA;
+        border-radius: 5px;
+        transition: 0.3s;
+        border-bottom: 2px solid white;
+        /* 下線を追加 */
+    }
 
-/* ホバー時のエフェクト */
-.link-item:hover {
-    background: #162e5c; /* さらに深い青 */
-}
+    /* 最後のボタンの下線を消す */
+    .link-item:last-child {
+        border-bottom: none;
+    }
 
-/* アイコン */
-.link-item img {
-    width: 50px;
-    height: 50px;
-}
+    /* ホバー時のエフェクト */
+    .link-item:hover {
+        background: #162e5c;
+        /* さらに深い青 */
+    }
 
-/* リンク */
-.link-item a {
-    text-decoration: none;
-    color: white; /* 文字を白に */
-    font-size: 16px;
-    text-align: right; /* 右寄せ */
-}
-#img1 {
-    background-image: url(../img/service2.JPG);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 20px;
-    height:200px
-}
+    /* アイコン */
+    .link-item img {
+        width: 50px;
+        height: 50px;
+    }
 
-#imgdiv{
-    background-color: white;
-    font-size: 90px;
-    font-family: serif;
-    color: lightgrey;
+    /* リンク */
+    .link-item a {
+        text-decoration: none;
+        color: white;
+        /* 文字を白に */
+        font-size: 16px;
+        text-align: right;
+        /* 右寄せ */
+    }
+
+    #img1 {
+        background-image: url(../img/service2.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+        height: 200px
+    }
+
+    #imgdiv {
+        background-color: white;
+        font-size: 90px;
+        font-family: serif;
+        color: lightgrey;
+    }
 }

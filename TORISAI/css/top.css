@@ -14,32 +14,38 @@
     }
 
     #TextTakeH2 {
-        font-size: 38px;
+        font-size: 40px;
+        position: relative;
+        top: -50px;
     }
 
     #TextTakeP1 {
-        font-size: 15px;
+        font-size: 18px;
+        position: relative;
+        top: -70px;
+        text-align: center;
     }
 
     #TextTakeP2 {
         background-color: rgba(255, 255, 255, 0.8);
-        /* 透明感のある背景 */
         padding: 10px 20px;
         margin-top: 0;
         border-radius: 5px;
         margin-right: 2px;
-        /* 左に寄せる */
+        position: relative;
+        top: -80px;
     }
 
     #TakeButton1 {
         background: linear-gradient(90deg, #ff4500, #ffb199);
-        /* 左を濃いオレンジ (#ff4500)、右を薄いオレンジ (#ffb199) に */
-        font-size:25px;
+        font-size: 25px;
         color: white;
         padding: 12px 24px;
         border: none;
         border-radius: 50px 50px 50px 50px;
         align-self: center;
+        position: relative;
+        top: -90px;
     }
 
     /* 🖱️ ホバー時の色を少し鮮やかに */
@@ -50,14 +56,90 @@
 
     #TakeButton2 {
         background: linear-gradient(90deg, #0066cc, #66ccff);
-        /* 左を濃いオレンジ (#ff4500)、右を薄いオレンジ (#ffb199) に */
-        font-size:25px;
+        font-size: 25px;
         color: white;
         padding: 12px 24px;
         border: none;
         border-radius: 50px 50px 50px 50px;
         align-self: center;
+        position: relative;
+        top: -80px;
+    }
 
+    /* 🖱️ ホバー時の色を少し鮮やかに */
+    #TakeButton2:hover {
+        background: linear-gradient(90deg, #005bb5, #80c4ff);
+        /* ホバー時はもう少し明るめのグラデーション */
+    }
+}
+
+@media (max-width:1280px) {
+
+    #take {
+        background-image: url(../img/top001.JPG);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* 縦方向の中央揃え */
+        align-items: flex-end;
+        /* 横方向の中央揃え */
+        height:600px;
+    }
+
+    #TextTakeH2 {
+        font-size: 40px;
+        position: relative;
+        top: -50px;
+    }
+
+    #TextTakeP1 {
+        font-size: 18px;
+        position: relative;
+        top: -70px;
+        text-align: center;
+    }
+
+    #TextTakeP2 {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px 20px;
+        margin-top: 0;
+        border-radius: 5px;
+        margin-right: 2px;
+        position: relative;
+        top: -80px;
+    }
+
+    #TakeButton1 {
+        background: linear-gradient(90deg, #ff4500, #ffb199);
+        font-size: 25px;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 50px 50px 50px 50px;
+        align-self: center;
+        position: relative;
+        top: -90px;
+    }
+
+    /* 🖱️ ホバー時の色を少し鮮やかに */
+    #TakeButton1:hover {
+        background: linear-gradient(90deg, #ff6347, #ffd1c4);
+        /* ホバー時はもう少し明るめのグラデーション */
+    }
+
+    #TakeButton2 {
+        background: linear-gradient(90deg, #0066cc, #66ccff);
+        font-size: 25px;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 50px 50px 50px 50px;
+        align-self: center;
+        position: relative;
+        top: -80px;
     }
 
     /* 🖱️ ホバー時の色を少し鮮やかに */

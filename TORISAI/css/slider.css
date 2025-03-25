@@ -4,7 +4,29 @@
         /* スライダーの幅 */
         margin: auto;
         position:absolute;
-        top:67%;
+        top: 530px;
+
+    }
+
+    .images-container {
+        display: flex;
+        /* transition: transform 0s ease-in-out; */
+        /* より滑らかな動きに */
+    }
+
+    .images-container img {
+        width: 33%;
+        height: auto;
+    }
+
+}
+@media (min-width:510px) {
+    .slider {
+        overflow: hidden;
+        /* スライダーの幅 */
+        margin: auto;
+        position:absolute;
+        top: 530px
 
     }
 

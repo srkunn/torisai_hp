@@ -33,3 +33,39 @@
     }
 
 }
+
+@media (max-width:1280px) {
+
+    .menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: #222;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        z-index: 1001;
+    }
+
+    .nav-menu {
+        display: none;
+        position: fixed;
+        top: 70px;
+        right: 20px;
+        background: #333;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .nav-menu a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .nav-menu a:hover {
+        background: #555;
+    }
+}
