@@ -9,130 +9,10 @@
         text-align: left;
     }
 
-    #flow article {
-        height: 300px;
-        background-size: cover;
-        /* 画像を記事いっぱいに表示 */
-        background-position: center;
-        /* 画像を中央配置 */
-        background-repeat: no-repeat;
-        /* 画像の繰り返しを防ぐ */
-    }
-
-    #a01_p1 {
-        position: absolute;
-        left: 30px;
+    h3{
         font-size: 30px;
-    }
-
-    #a01_p2 {
-        position: absolute;
-        top: 9.3%;
-        left: 30px;
-        font-size: 30px;
-    }
-
-    #a01_p3 {
-        position: absolute;
-        top: 14%;
-        text-align: left;
-        font-size: 17px;
-        left: 20px;
-    }
-
-    #a02_p1 {
-        position: absolute;
-        left: 30px;
-        font-size: 30px;
-    }
-
-    #a02_p2 {
-        position: absolute;
-        top: 35%;
-        left: 20px;
-        font-size: 20px;
-    }
-
-    #a03_p1 {
-        position: absolute;
-        top: 47%;
-        left: 40px;
-        font-size: 30px;
-    }
-
-
-    #a03_p2 {
-        position: absolute;
-        top: 53%;
-        font-size: 17px;
-        text-align: left;
-        left: 20px;
-    }
-
-
-    #a04_p1 {
-        position: absolute;
-        left: 10px;
-        font-size: 30px;
-    }
-
-    #a04_p2 {
-        position: absolute;
-        top: 70.5%;
-        font-size: 18px;
-        text-align: left;
-        left: 20px;
-    }
-
-
-    #a05_p1 {
-        position: absolute;
-        left: 10px;
-        font-size: 28px;
-        text-align: center;
-        top: 85%;
-    }
-
-    #a05_p2 {
-        position: absolute;
-        top: 91%;
-        font-size: 18px;
-        text-align: left;
-        left: 10px;
-        font-weight: 550;
-    }
-
-    #a01 {
-        background-image: url(../img/Frow01.JPG);
-
-    }
-
-    #a02 {
-        background-image: url(../img/Frow02.JPG);
-    }
-
-    #a03 {
-        background-image: url(../img/Frow03.JPG);
-    }
-
-    #a04 {
-        background-image: url(../img/Frow04.JPG);
-    }
-
-    #a05 {
-        background-image: url(../img/Frow05.JPG);
-    }
-}
-@media (max-width:1280px) {
-
-    #flow {
-        position: relative;
-    }
-
-
-    #flowh2 {
-        font-size: 40px;
-        text-align: left;
+        display     : inline-block;       /* 奥行表示のためのブロック化 */
+        transform   : skewX(-30deg);       /* 傾き角度 */
     }
 
     #flow article {
@@ -153,16 +33,17 @@
 
     #a01_p2 {
         position: absolute;
-        top: 9.3%;
+        top: 11.2%;
         left: 30px;
         font-size: 30px;
     }
 
     #a01_p3 {
         position: absolute;
-        top: 14%;
+        top: 15%;
         text-align: left;
         font-size: 17px;
+        left: 20px;
     }
 
     #a02_p1 {
@@ -180,7 +61,7 @@
 
     #a03_p1 {
         position: absolute;
-        top: 47%;
+        top: 49%;
         left: 40px;
         font-size: 30px;
     }
@@ -188,7 +69,7 @@
 
     #a03_p2 {
         position: absolute;
-        top: 53%;
+        top: 54%;
         font-size: 17px;
         text-align: left;
         left: 20px;
@@ -203,7 +84,7 @@
 
     #a04_p2 {
         position: absolute;
-        top: 70.5%;
+        top: 71.7%;
         font-size: 18px;
         text-align: left;
         left: 20px;
@@ -215,12 +96,12 @@
         left: 10px;
         font-size: 28px;
         text-align: center;
-        top: 85%;
+        top: 87%;
     }
 
     #a05_p2 {
         position: absolute;
-        top: 91%;
+        top: 93%;
         font-size: 18px;
         text-align: left;
         left: 10px;
